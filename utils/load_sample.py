@@ -1,4 +1,3 @@
-# utils/load_sample.py
 import json
 from app.db.database import fetchone, execute
 

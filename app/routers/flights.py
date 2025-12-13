@@ -1,4 +1,3 @@
-# app/routers/flights.py
 from fastapi import APIRouter, HTTPException, Request, status
 from app.schemas.flight import FlightCreate, FlightOut, FlightUpdate
 from app.services import flight_service

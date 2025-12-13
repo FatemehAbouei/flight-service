@@ -1,11 +1,10 @@
-# app/db/database.py
 import os
 import pymysql
 from pymysql.cursors import DictCursor
 from threading import Lock
 from dotenv import load_dotenv
 
-load_dotenv()  # loads .env in project root
+load_dotenv() 
 
 _lock = Lock()
 

@@ -1,4 +1,3 @@
-# app/repos/flight_repo.py
 from app.db.database import execute, fetchall, fetchone
 import json
 from typing import Dict, Any, Tuple, Optional, List
